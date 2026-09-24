@@ -1,0 +1,38 @@
+# OS & Editor
+.DS_Store
+.DS_Store?
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.pyo
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+env/
+
+# Data & Datasets
+data/
+
+# Trained Weights & Checkpoints
+checkpoints/
+models/*.pt
+models/*.pth
+
+# Execution Outputs
+logs/
+results/
+
+# Internal Working Files
+_internal/

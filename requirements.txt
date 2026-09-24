@@ -1,0 +1,33 @@
+# ============================================================
+# requirements.txt
+# Project: Temporal Integrity in Neuromorphic Systems
+# Description: All dependencies for the four-phase research pipeline.
+# Python version: >= 3.10
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# ── Core deep-learning stack ────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+
+# ── Spiking Neural Network framework ────────────────────────
+# snntorch provides IF/LIF neurons, surrogate gradients,
+# and spike-encoding utilities used in Phases 2-4.
+snntorch>=0.9.1
+
+# ── Scientific & numerical computing ────────────────────────
+numpy>=1.26.0
+scipy>=1.12.0
+
+# ── Visualisation ───────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Experiment tracking & progress bars ─────────────────────
+tqdm>=4.66.0
+
+# ── Data handling utilities ──────────────────────────────────
+pandas>=2.2.0
+
+# ── Reproducibility helpers ──────────────────────────────────
+# (no extra package needed; torch.manual_seed is sufficient)
